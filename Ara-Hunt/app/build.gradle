@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "techtalk.ara_hunt"
+        applicationId "jitendra.tech_hunt"
         minSdkVersion 8
         targetSdkVersion 17
         maxSdkVersion 23

@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name">Ara-Hunt</string>
+    <string name="app_name">Tech-Hunt</string>
     <string name="chkco">CHECK CODE</string>
     <string name="chkans">CHECK ANSWER</string>
     <string name="starthunt">START HUNTING</string>
-    <string name="co">©TECHTALK</string>
     <string name="qtitl">Answer  the questions to display the location of Module</string>
     <string name="ques">question00</string>
     <string name="op1">0</string>
