@@ -13,7 +13,7 @@
  *
  * @author Student
  */
-public class jFrame extends javax.swing.JFrame {
+class jFrame extends javax.swing.JFrame {
 
     /** Creates new form jFrame */
     public jFrame() {

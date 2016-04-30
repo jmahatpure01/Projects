@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
  *
  * @author home
  */
-public class NewJFrame1 extends javax.swing.JFrame {
+class NewJFrame1 extends javax.swing.JFrame {
 
     /** Creates new form NewJFrame1 */
     public NewJFrame1() {
@@ -413,7 +413,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -445,7 +445,7 @@ con.close();
          try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -471,7 +471,7 @@ JOptionPane.showMessageDialog(null,"Your Vote Casted");
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -500,7 +500,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -529,7 +529,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -559,7 +559,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -588,7 +588,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -618,7 +618,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -648,7 +648,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -678,7 +678,7 @@ rb8.setEnabled(false);
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -708,7 +708,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -738,7 +738,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -767,7 +767,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -796,7 +796,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -825,7 +825,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -854,7 +854,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -883,7 +883,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -912,7 +912,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -941,7 +941,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -970,7 +970,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -999,7 +999,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -1028,7 +1028,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -1057,7 +1057,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -1086,7 +1086,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -1115,7 +1115,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();

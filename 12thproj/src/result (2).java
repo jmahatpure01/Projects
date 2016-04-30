@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author home
  */
-public class result extends javax.swing.JFrame {
+ class result extends javax.swing.JFrame {
 
     /** Creates new form result */
     public result() {
@@ -123,7 +123,7 @@ public class result extends javax.swing.JFrame {
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -162,7 +162,7 @@ con.close();
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
@@ -172,9 +172,9 @@ con.close();
        for(int i=1;r.next();i++)
        {
            String p=r.getString(1);
-           String h=r.getString(2);
-           String n=r.getString(3);
-           String g=r.getString(4);
+           String n=r.getString(2);
+           String g=r.getString(3);
+           String h=r.getString(4);
            int v=r.getInt(5);
            m.addRow(new Object[]{p,h,n,g,v});
            ta.setModel(m);
@@ -195,12 +195,12 @@ con.close();
          try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
 
-        String q="delete from elecand  where gender not like '%le'";
+        String q="delete from elecand";
         s.executeUpdate(q);
 
 s.close();

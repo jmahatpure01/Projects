@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
  *
  * @author home
  */
-public class NewJFrame extends javax.swing.JFrame {
+ class NewJFrame extends javax.swing.JFrame {
 
     /** Creates new form NewJFrame */
     public NewJFrame() {
@@ -160,7 +160,7 @@ public class NewJFrame extends javax.swing.JFrame {
           try{
        Class.forName("java.sql.Driver");
         String id = "root";
-        String pw = "avs";
+        String pw = "2467";
         String db = "jdbc:mysql://localhost/Project";
        Connection con=(Connection)DriverManager.getConnection(db,id,pw);
         Statement s=(Statement) con.createStatement();
